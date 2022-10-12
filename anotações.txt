@@ -1,0 +1,22 @@
+Utilizar o sep="_" e o end"!\n" ele preenche os espaços vazios.
+
+"R$ {:f}".format(1,59)
+"R$ {:.2f}".format(1,59)
+
+
+"R$ {:07.2f}".format(14,5)
+
+List Comprehensions: é uma maneira elegante de definir e criar listas com base em listas existentes.
+
+Modificadores de acesso da função open(): 
+r - leitura
+a - append, adicionando conteúdo a um arquivo pré existente
+w - modo de escrita
+b - para trabalhar com binário
+rb - para abrir uma imagem
+
+sempre que abrir o arquivo é importante fechar ele...
+Para ler linha a linha de um arquivo,  usar a função readline()
+
+Para não precisar abrir e fechar o arquivo com close é possível utilizar o with open
+
